@@ -34,7 +34,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach(Emprestimo e in Model)
+                @foreach(Emprestimo e in Model.OrderByDescending(i => i.DataDevolucao))
                 {
                 <tr>
                     <td>@e.Id</td>
