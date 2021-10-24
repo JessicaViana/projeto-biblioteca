@@ -18,8 +18,8 @@ namespace Biblioteca.Models
             }
         }
 
-        public List<Usuario> ListarTodos(){
-
+        public List<Usuario> ListarTodos()
+        {
             using(BibliotecaContext bc = new BibliotecaContext()){
 
                 List<Usuario> listaDeUsers = bc.Usuarios.ToList();
@@ -27,7 +27,8 @@ namespace Biblioteca.Models
             }
         }
 
-        public Usuario Listar(int id){
+        public Usuario Listar(int id)
+        {
             using(BibliotecaContext bc = new BibliotecaContext()){
 
                 Usuario user = bc.Usuarios.Find(id);
@@ -36,8 +37,8 @@ namespace Biblioteca.Models
 
         }
 
-        public void incluirUsuario(Usuario novoUser){
-
+        public void incluirUsuario(Usuario novoUser)
+        {
             using(BibliotecaContext bc = new BibliotecaContext()){
 
                 bc.Usuarios.Add(novoUser);
@@ -46,8 +47,8 @@ namespace Biblioteca.Models
 
         }
 
-        public void editarUsuario(Usuario userEditado){
-
+        public void editarUsuario(Usuario userEditado)
+        {
              using(BibliotecaContext bc = new BibliotecaContext()){
 
                 Usuario user = bc.Usuarios.Find(userEditado.Id);
@@ -61,8 +62,8 @@ namespace Biblioteca.Models
             }
 
         }
-        public void excluirUsuario(int id){
-
+        public void excluirUsuario(int id)
+        {
             using(BibliotecaContext bc = new BibliotecaContext()){
                 bc.Usuarios.Remove(bc.Usuarios.Find(id));
                 bc.SaveChanges();
