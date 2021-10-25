@@ -14417,6 +14417,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Jessica Viana\\Documents\\Projetos .NET\\uc07\\Projeto Biblioteca\\Biblioteca\\Views\\Usuarios\\ListaDeUsuarios.cshtml",
+      "TargetPath": "Views\\Usuarios\\ListaDeUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jessica Viana\\Documents\\Projetos .NET\\uc07\\Projeto Biblioteca\\Biblioteca\\Views\\Usuarios\\editarUsuario.cshtml",
+      "TargetPath": "Views\\Usuarios\\editarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jessica Viana\\Documents\\Projetos .NET\\uc07\\Projeto Biblioteca\\Biblioteca\\Views\\Usuarios\\RegistrarUsuarios.cshtml",
+      "TargetPath": "Views\\Usuarios\\RegistrarUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Jessica Viana\\Documents\\Projetos .NET\\uc07\\Projeto Biblioteca\\Biblioteca\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -14457,6 +14472,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Jessica Viana\\Documents\\Projetos .NET\\uc07\\Projeto Biblioteca\\Biblioteca\\Views\\Usuarios\\cadastroRealizado.cshtml",
+      "TargetPath": "Views\\Usuarios\\cadastroRealizado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Jessica Viana\\Documents\\Projetos .NET\\uc07\\Projeto Biblioteca\\Biblioteca\\Views\\Emprestimo\\Edicao.cshtml",
       "TargetPath": "Views\\Emprestimo\\Edicao.cshtml",
       "FileKind": "mvc"
@@ -14472,8 +14492,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Jessica Viana\\Documents\\Projetos .NET\\uc07\\Projeto Biblioteca\\Biblioteca\\Views\\Usuarios\\NeedAdmin.cshtml",
+      "TargetPath": "Views\\Usuarios\\NeedAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Jessica Viana\\Documents\\Projetos .NET\\uc07\\Projeto Biblioteca\\Biblioteca\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jessica Viana\\Documents\\Projetos .NET\\uc07\\Projeto Biblioteca\\Biblioteca\\Views\\Usuarios\\ExcluirUsuario.cshtml",
+      "TargetPath": "Views\\Usuarios\\ExcluirUsuario.cshtml",
       "FileKind": "mvc"
     }
   ],

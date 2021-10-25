@@ -5,19 +5,6 @@ namespace Biblioteca.Models
 {
     public class UsuarioService
     {
-        public void AtualizarUser(Livro l)
-        {
-            using(BibliotecaContext bc = new BibliotecaContext())
-            {
-                Livro livro = bc.Livros.Find(l.Id);
-                livro.Autor = l.Autor;
-                livro.Titulo = l.Titulo;
-                livro.Ano = l.Ano;
-
-                bc.SaveChanges();
-            }
-        }
-
         public List<Usuario> ListarTodos()
         {
             using(BibliotecaContext bc = new BibliotecaContext()){
